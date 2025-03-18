@@ -1,14 +1,11 @@
 <h2><a href= "https://www.mackenzie.br">Universidade Presbiteriana Mackenzie</a></h2>
-<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Engenharia de Software</a></h3>
+<h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Projeto de Software</a></h3>
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*&lt;Sistema Falcão Sombrio para Drones&gt;*
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
-
->*Observação 2: O índice abaixo não precisa ser editado se você utilizar o Visual Studio Code com a extensão **Markdown All in One**. Essa extensão atualiza o índice automaticamente quando o arquivo é salvo.*
 
 **Conteúdo**
 
@@ -27,14 +24,8 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Aluno/RA
+* Aluno/RA
 
 
 # Descrição do Projeto
@@ -42,7 +33,59 @@
 *&lt;Introdução do projeto&gt;*
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;Descrição dos requisitos&gt;*
+*&lt;
+Informações de requisitos e funcionalidades obtidas:
+1. Central de Controle
+- 1.1 Interface para gerenciamento de frotas de drones.
+- 1.2 Controle remoto e autônomo dos drones.
+- 1.3 Dashboard em tempo real com telemetria.
+
+2. Sistema de Navegação Inteligente
+- 2.1 Sensoriamento do ambiente via LIDAR, câmeras e GPS.
+- 2.2 Detecção e evasão de ameaças em tempo real.
+- 2.3 Operação autônoma baseada em redes neurais.
+
+3. Gerenciamento de Comunicação
+- 3.1 Protocolos para comunicação segura e em tempo real com os drones.
+- 3.2 Mecanismos de fallback para evitar perda de conexão.
+
+4. Banco de Dados e Auditoria
+- 4.1 Logs de missões realizadas e eventos críticos.
+- 4.2 Criptografia de ponta e assinaturas digitais.
+- 4.3 Banco de dados NoSQL distribuído para dados em tempo real. 
+
+5. Sistemas Embarcados e Segurança
+- 5.1 Autenticação de operadores via biometria e autenticação
+multifator.
+- 5.2 Monitoramento de processos do SO embarcado para evitar falhas.
+
+
+Classificação dos requisitos:
+
+Requisitos funcionais:
+- 1.1 Interface para gerenciamento de frotas de drones.
+- 1.2 Controle remoto e autônomo dos drones.
+- 1.3 Dashboard em tempo real com telemetria.
+
+- 2.1 Sensoriamento do ambiente via LIDAR, câmeras e GPS.
+- 2.3 Operação autônoma baseada em redes neurais.
+
+- 4.3 Banco de dados NoSQL distribuído para dados em tempo real. 
+
+Requisitos não funcionais:
+- 2.2 Detecção e evasão de ameaças em tempo real.
+- 
+- 3.1 Protocolos para comunicação segura e em tempo real com os drones.
+- 3.2 Mecanismos de fallback para evitar perda de conexão.
+
+- 4.1 Logs de missões realizadas e eventos críticos.
+- 4.2 Criptografia de ponta e assinaturas digitais.
+
+- 5.1 Autenticação de operadores via biometria e autenticação
+multifator.
+- 5.2 Monitoramento de processos do SO embarcado para evitar falhas.
+
+   &gt;*
 
 # Diagrama de Atividades
 
