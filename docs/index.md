@@ -59,31 +59,51 @@ Informações de requisitos e funcionalidades obtidas:
 multifator.
 - 5.2 Monitoramento de processos do SO embarcado para evitar falhas.
 
+----------------------------------------------------------------------------------
+FUNCIONAIS
 
-Classificação dos requisitos:
+RF-01 Autenticação - identificar o usuário com base em biometria e autenticação multifator
 
-Requisitos funcionais:
-- 1.1 Interface para gerenciamento de frotas de drones.
-- 1.2 Controle remoto e autônomo dos drones.
-- 1.3 Dashboard em tempo real com telemetria.
+RF-02 Interface - possibilita o gerenciamento dos drones a partir de telemetria, status e permite executar comandos
 
-- 2.1 Sensoriamento do ambiente via LIDAR, câmeras e GPS.
-- 2.3 Operação autônoma baseada em redes neurais.
+RF-03 Controle de drones - permitir o controle das frotas de modo autônomo
 
-- 4.3 Banco de dados NoSQL distribuído para dados em tempo real. 
+RF-04 Redes neurais - o funcionamento autônomo dos drones é baseado em redes neurais
 
-Requisitos não funcionais:
-- 2.2 Detecção e evasão de ameaças em tempo real.
-- 
-- 3.1 Protocolos para comunicação segura e em tempo real com os drones.
-- 3.2 Mecanismos de fallback para evitar perda de conexão.
+RF-05 Logs - Registra missões realizadas e seus dados
 
-- 4.1 Logs de missões realizadas e eventos críticos.
-- 4.2 Criptografia de ponta e assinaturas digitais.
+RF-06 Banco de dados - Garante que logs e possam ser armazenados e acessados em tempo real
 
-- 5.1 Autenticação de operadores via biometria e autenticação
-multifator.
-- 5.2 Monitoramento de processos do SO embarcado para evitar falhas.
+RF-07 Comunicação- Troca de informações entre os drones e o sistema de controle
+
+RF-08-Dashboard - garante a visualização em tempo real dos drones e seus acessórios
+
+RF-09 Sensoriamento -  Permite acesso às câmeras e sensores do drones
+
+
+
+
+NÃO FUNCIONAIS
+
+RNF-01 Segurança - O sistema deve implementar criptografia AES-256 para armazenamento de dados, TLS para comunicação e IDS para detecção de ameaças.
+
+RNF-02 Desempenho - A latência de comunicação entre drone e sistema não pode ultrapassar 50ms em condições normais.
+
+RNF-03 Disponibilidade - O sistema deve estar disponível o tempo todo, com 99,9% de uptime, para garantir operação contínua em situações críticas.
+
+RNF-04 Armazenamento - O banco de dados deve ser replicado geograficamente garantindo redundância e integridade dos dados.
+
+RNF-05 Escalabilidade - A arquitetura deve permitir a adição de novos drones e servidores de maneira fácil e sem comprometer o desempenho e segurança.
+
+RNF-06 Conformidade - O sistema deve atender padrões de segurança cibernética como ISO 27001 e NIST 800-53
+
+RNF-07 Resiliência - O sistema deve identificar, investigar e corrigir ataques cibernéticos, recuperar a operação normal da organização, os sistemas de informação e processos em funcionamento rapidamente.
+
+RNF-08 Tolerâncias a Falhas - A arquitetura deve suportar controladores duplos ativos com conexão heartbeat para proteção contra eventuais problemas de funcionamento.
+
+RNF-09 Eficiência  - Os drones devem otimizar o consumo de bateria e rotas com o uso de algoritmos de IA para gestão de tempo e energia.
+
+RNF-10 Log e Auditoria - Os logs devem ser protegidos e armazenados por no mínimo 06 anos para evitar alteração e exclusão.
 
    &gt;*
 
