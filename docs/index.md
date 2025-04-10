@@ -83,9 +83,87 @@ NÃO FUNCIONAIS
 |Resumo| Este caso de uso descreve o protocolo de controle de um drone manualmente por um operador militar       |
 |Pré-condições| O operador deve estar autenticado no sistema       |
 |Pós-condições| A missão é realizada e um log é gerado       |
-|Restrições e validações| 1.Devem existir drones disponíveis para operação\n2.Necessita uma comunicação segura       |
-
-
+|Restrições e validações| 1.Devem existir drones disponíveis para operação 2.Necessita uma comunicação segura       |
+| ------------- | ------------- | 
+|Nome do caso de uso| Login      |
+|Ator principal     | Operador militar|
+|Atores secundários| Central de controle       |
+|Resumo| Este caso de uso descreve o procedimento de login e verificação do usuário       |
+|Pré-condições| O operador deve possuir um registro no banco de dados      |
+|Pós-condições| O operador ganha acesso ao sistema      |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Gerenciar Frotas de Drones      |
+|Ator principal     | Operador militar |
+|Atores secundários| Central de controle      |
+|Resumo| Permite cadastrar, editar, visualizar e remover drones da frota disponível no sistema. Também inclui informações como modelo, status, localização e capacidade.     |
+|Pré-condições| Usuário autenticado com permissão de gestão      |
+|Pós-condições| Frota atualizada no sistema.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Configurar Missão Autônoma  |
+|Ator principal     | Operador militar |
+|Atores secundários| Central de controle      |
+|Resumo| Define rotas, pontos de interesse e objetivos para que o drone execute de forma automática sem intervenção humana durante o voo.     |
+|Pré-condições| Drone disponível, plano de voo válido      |
+|Pós-condições| Missão salva e pronta para execução.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Exibir Dashboard em Tempo Real     |
+|Ator principal     | Operador militar |
+|Atores secundários| -----------------------      |
+|Resumo| Apresenta uma interface com dados atualizados em tempo real sobre drones em operação, incluindo telemetria, localização, status de bateria, vídeo ao vivo e alertas.     |
+|Pré-condições| Drones ativos e conectados      |
+|Pós-condições| Dashboard atualizado continuamente.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso|  Finalizar Sessão     |
+|Ator principal     | Usuário/Operador militar |
+|Atores secundários| -----------------------      |
+|Resumo| Encerra a sessão atual do usuário e revoga o acesso ao sistema.     |
+|Pré-condições| Sessão iniciada      |
+|Pós-condições|  Sessão encerrada com segurança.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Registrar Log das Missões    |
+|Ator principal     | Sistema |
+|Atores secundários| -----------------------      |
+|Resumo| Armazena automaticamente todas as informações da missão realizada, incluindo horário, rota, eventos ocorridos, operadores envolvidos e status final.     |
+|Pré-condições| Ddos disponíveis da missão concluída ou cancelada      |
+|Pós-condições| Log salvo no banco de dados.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso|  Transmitir Dados em Tempo Real    |
+|Ator principal     | ----------------------- |
+|Atores secundários| -----------------------      |
+|Resumo| Envia informações de telemetria, vídeo e status do drone durante o voo para o sistema central.     |
+|Pré-condições| Drone em missão com conexão estável      |
+|Pós-condições| Dados disponíveis para o dashboard e registros.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso|  Criptografar Dados     |
+|Ator principal     | Sistema |
+|Atores secundários| -----------------------      |
+|Resumo| Garante a segurança da comunicação e dos dados armazenados utilizando algoritmos de criptografia.     |
+|Pré-condições| Dados em trânsito ou sendo armazenados      |
+|Pós-condições| Dados protegidos contra acessos não autorizados.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Gerenciar Usuários     |
+|Ator principal     | Administrador/central de controle |
+|Atores secundários| -----------------------      |
+|Resumo|  Permite o cadastro, edição, exclusão e atribuição de permissões a usuários do sistema.     |
+|Pré-condições|  Sessão de administrador ativa      |
+|Pós-condições| Lista de usuários atualizada.   |
+|Restrições e validações| -----------------------      |
+| ------------- | ------------- | 
+|Nome do caso de uso| Histórico de Voos      |
+|Ator principal     | ----------------------- |
+|Atores secundários| -----------------------      |
+|Resumo| Exibe ao usuário uma lista de todas as missões realizadas, com detalhes como data, duração, trajeto, operador e status.     |
+|Pré-condições| Missões registradas      |
+|Pós-condições| Histórico acessível para análise.   |
+|Restrições e validações| -----------------------      |
 
 # Diagrama de Sequência
 
