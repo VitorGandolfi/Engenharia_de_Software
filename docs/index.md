@@ -75,8 +75,17 @@ NÃO FUNCIONAIS
 *&lt;Diagrama para visualizar o comportamento dos atores&gt;*
 
 # Descrição dos Casos de Uso
+|||
+| ------------- | ------------- | 
+|Nome do caso de uso| Controle manual de drones       |
+|Ator principal     | Operador militar|
+|Atores secundários| Central de controle       |
+|Resumo| Este caso de uso descreve o protocolo de controle de um drone manualmente por um operador militar       |
+|Pré-condições| O operador deve estar autenticado no sistema       |
+|Pós-condições| A missão é realizada e um log é gerado       |
+|Restrições e validações| 1.Devem existir drones disponíveis para operação\n2.Necessita uma comunicação segura       |
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+
 
 # Diagrama de Sequência
 
