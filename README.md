@@ -21,11 +21,11 @@ A seguir, os passos para a preparação do projeto:
 
 # Projeto: Sistema Falcão Sombrio para Drones 
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: gupo
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+Atividade Projeto de Software
 
 # Documentação
 
