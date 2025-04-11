@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4">
+  <diagram name="Página-1" id="yzzel4SoigGhQ0eOLcYB">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CgIZvEvBO8Mifkh1KMpp-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CgIZvEvBO8Mifkh1KMpp-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="CgIZvEvBO8Mifkh1KMpp-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgIZvEvBO8Mifkh1KMpp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CgIZvEvBO8Mifkh1KMpp-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CgIZvEvBO8Mifkh1KMpp-5" value="Autentificação" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyepmDSaORqrqf5UFxTg-5" target="stnGUWccoQk9xzNtHR6X-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-5" value="Interface de Controle" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="205" y="160" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-6" value="Acesso&amp;nbsp; ao Dashboard" style="html=1;whiteSpace=wrap;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-5">
+          <mxGeometry x="45" y="40" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-26" value="Controle de drones" style="html=1;whiteSpace=wrap;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-5">
+          <mxGeometry x="45" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-7" value="Dashboard(Interface gráfica)" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="490" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-9" value="Ambiente" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-7">
+          <mxGeometry y="20" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-24" value="&lt;ul style=&quot;line-height: 190%;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Acesso às câmeras&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Localização GPS&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Sensoriamento LiDAR&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-9">
+          <mxGeometry x="20" y="10" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-10" value="Drone" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-7">
+          <mxGeometry y="140" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-25" value="&lt;ul style=&quot;line-height: 190%;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Informações essenciais como bateria e integridade física&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Status de tarefas realizadas e pendentes pelo drone&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Acesso à logs gerados&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-10">
+          <mxGeometry x="20" y="10" width="450" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyepmDSaORqrqf5UFxTg-6" target="NyepmDSaORqrqf5UFxTg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NyepmDSaORqrqf5UFxTg-27" value="Banco de dados" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="600" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-8" value="&lt;ul style=&quot;line-height: 190%;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Armazenar Logs&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Registro de missões&lt;/li&gt;&lt;li&gt;Criptografia&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="NyepmDSaORqrqf5UFxTg-27">
+          <mxGeometry x="20" y="45" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="stnGUWccoQk9xzNtHR6X-2" target="NyepmDSaORqrqf5UFxTg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-2" value="Gerar Logs" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="665" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NyepmDSaORqrqf5UFxTg-25" target="stnGUWccoQk9xzNtHR6X-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-9" value="Controle de drones" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="320" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-10" value="+ Autônomo - baseado em redes neurais&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="stnGUWccoQk9xzNtHR6X-9">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="stnGUWccoQk9xzNtHR6X-9">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-12" value="+ Individual - baseado em controle manual" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="stnGUWccoQk9xzNtHR6X-9">
+          <mxGeometry y="68" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NyepmDSaORqrqf5UFxTg-26" target="stnGUWccoQk9xzNtHR6X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="445" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="stnGUWccoQk9xzNtHR6X-17" target="stnGUWccoQk9xzNtHR6X-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Realizado por sistema de &lt;b style=&quot;&quot;&gt;inteligência artificial&lt;/b&gt;&lt;/font&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="318" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-18" value="  " style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="stnGUWccoQk9xzNtHR6X-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="stnGUWccoQk9xzNtHR6X-19" target="stnGUWccoQk9xzNtHR6X-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Realizado por &lt;b style=&quot;&quot;&gt;operadores militares&lt;/b&gt;&lt;/font&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="388" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="stnGUWccoQk9xzNtHR6X-20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="stnGUWccoQk9xzNtHR6X-19">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
