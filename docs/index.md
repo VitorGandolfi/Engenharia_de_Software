@@ -171,7 +171,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![image](https://github.com/user-attachments/assets/24eba423-0c54-4cd7-bc2e-67c4808dbc2a)
 
 # Diagrama de Estados
 
