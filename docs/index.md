@@ -179,7 +179,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Implantação
 
-![image](https://github.com/user-attachments/assets/9435f7cb-0cd0-423d-858a-6f16f93fbecc)
+![image](https://github.com/user-attachments/assets/2436a7b9-5392-4a0d-9ecb-9d2f6cc6d9b8)
 
 # Referências
 
