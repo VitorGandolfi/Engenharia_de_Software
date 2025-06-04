@@ -72,7 +72,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Casos de Uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+![image](https://github.com/user-attachments/assets/9270565e-49a9-4df5-95dc-f85d2462435a)
 
 # Descrição dos Casos de Uso
 |||
