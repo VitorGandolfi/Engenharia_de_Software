@@ -179,7 +179,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+![image](https://github.com/user-attachments/assets/9435f7cb-0cd0-423d-858a-6f16f93fbecc)
 
 # Referências
 
