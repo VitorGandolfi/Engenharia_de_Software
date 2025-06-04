@@ -167,7 +167,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Sequência
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![image](https://github.com/user-attachments/assets/9397e23e-85b0-4b3f-8266-f108b6ef979f)
 
 # Diagrama de Classes
 
