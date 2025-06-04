@@ -175,7 +175,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Estados
 
-*&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
+![image](https://github.com/user-attachments/assets/d8c46a05-6278-4b3b-b8db-52cfdb53995e)
 
 # Diagrama de Implantação
 
