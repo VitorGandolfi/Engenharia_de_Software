@@ -171,7 +171,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Classes
 
-![image](https://github.com/user-attachments/assets/24eba423-0c54-4cd7-bc2e-67c4808dbc2a)
+![image](https://github.com/user-attachments/assets/8be1c4e7-1e0a-4410-a2a1-034300032035)
 
 # Diagrama de Estados
 
