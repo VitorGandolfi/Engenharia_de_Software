@@ -68,7 +68,7 @@ NÃO FUNCIONAIS
 
 # Diagrama de Atividades
 
-*&lt;Diagrama para visualizer as pessoas das áreas de negócios e de desenvolvimento de uma organização para entender o processo e comportamento.&gt;*
+![image](https://github.com/user-attachments/assets/09a13edd-7188-49bf-9d73-d4750cb751d5)
 
 # Diagrama de Casos de Uso
 
